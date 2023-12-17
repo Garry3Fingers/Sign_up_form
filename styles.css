@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'norsebold';
+  src:
+    url('./fonts/norse-bold-webfont.woff2') format('woff2'),
+    url('./fonts/norse-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotomedium';
+  src:
+    url('./fonts/roboto-medium-webfont.woff2') format('woff2'),
+    url('./fonts/roboto-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotomedium_italic';
+  src:
+    url('./fonts/roboto-mediumitalic-webfont.woff2') format('woff2'),
+    url('./fonts/roboto-mediumitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotolight';
+  src:
+    url('./fonts/roboto-light-webfont.woff2') format('woff2'),
+    url('./fonts/roboto-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font: 2rem 'robotomedium', sans-serif;
+}
+
+p {
+  width: 60ch;
+  max-width: 100%;
+  line-height: calc(1ex / 0.32);
+}
+
+button,
+input {
+  font-size: 100%;
+}
+
+input {
+  font-family: 'robotolight', sans-serif;
+}
+
+button {
+  font: inherit;
+}
+
+label {
+  font-size: 1.2rem;
+}
+
+p > span {
+  font-family: 'robotomedium_italic', sans-serif;
+}
