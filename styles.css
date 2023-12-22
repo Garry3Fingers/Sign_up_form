@@ -192,10 +192,6 @@ input:focus {
   outline-color: rgb(51, 51, 239, 0.889);
 }
 
-input:invalid {
-  outline-color: rgb(237, 55, 55);
-}
-
 label {
   font-size: 1.7rem;
 }
@@ -210,4 +206,13 @@ label {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+.error {
+  border-color: brown;
+}
+
+.message {
+  color: brown;
+  font-size: 1.2rem;
 }
